@@ -1,0 +1,13 @@
+en:
+  routes:
+    # you can leave empty locales, for example the default one
+
+es:
+  routes:
+    new: nuevo
+    users: usuario
+
+de:
+  routes:
+    new: neu
+    users: benutzer
