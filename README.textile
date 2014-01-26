@@ -1,0 +1,19 @@
+h1. Rake Test
+
+<pre>
+# rake test
+Run options: --seed 21402
+
+# Running tests:
+
+E
+
+Finished tests in 0.122010s, 8.1961 tests/s, 0.0000 assertions/s.
+
+  1) Error:
+UsersControllerTest#test_should_get_new:
+NoMethodError: undefined method `users_path' for #<UsersController:0x000000038538d0>
+    test/controllers/users_controller_test.rb:6:in `block in <class:UsersControllerTest>'
+
+1 tests, 0 assertions, 0 failures, 1 errors, 0 skips
+</pre>
