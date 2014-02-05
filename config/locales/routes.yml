@@ -6,8 +6,10 @@ es:
   routes:
     new: nuevo
     users: usuario
+    sign_out: cerrar
 
 de:
   routes:
     new: neu
     users: benutzer
+    sign_out: abmelden

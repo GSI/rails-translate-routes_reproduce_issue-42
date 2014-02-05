@@ -45,5 +45,5 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'devise'
-gem 'rails-translate-routes'
-#gem 'rails-translate-routes', :github => 'bgosavi/rails-translate-routes', :ref => 'eef8a60a28f7a775157fcef298c596f189705916'
+gem 'rails-translate-routes', '~> 0.1.3'
+#gem 'rails-translate-routes', :github => 'bgosavi/rails-translate-routes'

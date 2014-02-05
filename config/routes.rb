@@ -1,5 +1,5 @@
 RtrError::Application.routes.draw do
-  devise_for :users
+  devise_for :users, :sign_out_via => [ :delete, :get ]
   resources :users
 
 	# NOTE Using any of these lines causes the error to happen:
